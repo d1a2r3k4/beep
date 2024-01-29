@@ -6,6 +6,7 @@
 
 header {
   height: 1000px;
+  background: linear-gradient(180deg, #20232D 0%, #151720 88.86%);
   background-image: url("./bimg/Mask.png");
   background-size: cover;
   background-position: right;
@@ -132,8 +133,12 @@ header #head img {
 }
 #need .row {
   margin-top: 160px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 #need .row .col-md-4 {
+  width: 33.333%;
   padding: 10px;
 }
 #need .row .col-md-4 .center {
@@ -490,11 +495,11 @@ footer #last .card a:hover {
     /* object-position: center right; */
     position: absolute;
     left: -7%;
-    bottom: 16%;
+    bottom: 36%;
   }
   header #head .col-md-6 .simple {
-    transform: translate(0%, 41%);
-    width: 337px;
+    transform: translate(5%, 41%);
+    width: 309px;
     text-align: left;
   }
   header #head #phone {
@@ -508,8 +513,8 @@ footer #last .card a:hover {
     font-size: 14px;
   }
   header #head .col-md-6 .simple .btn {
-    padding: 0;
-    font-size: 12px;
+    padding: 8px 8px 8px 8px;
+    font-size: 13px;
   }
   #order #shop {
     margin: auto;
@@ -551,12 +556,12 @@ footer #last .card a:hover {
   }
   #app {
     background-color: #fff;
-    height: 194px;
+    height: 266px;
     left: 0%;
     width: 88%;
     display: flex;
     position: relative;
-    top: -300px;
+    top: -231px;
     color: black;
     border-radius: 10px;
   }
@@ -580,6 +585,18 @@ footer #last .card a:hover {
   header {
     height: 765px;
   }
+  header #head .col-md-6 #shape {
+    width: 82%;
+    min-width: 280px;
+    max-height: 980px;
+    min-height: 60vh;
+    height: 743px;
+    object-fit: cover;
+    /* object-position: center right; */
+    position: absolute;
+    left: 3%;
+    bottom: 31%;
+  }
   header #head #phone {
     display: flex;
     /* margin-right: 312px; */
@@ -587,8 +604,8 @@ footer #last .card a:hover {
     height: 457px;
   }
   header #head .col-md-6 .simple {
-    transform: translate(58%, -117%);
-    width: 336px;
+    transform: translate(62%, -117%);
+    width: 294px;
     text-align: left;
   }
   header #head .col-md-6 .simple h1 {
@@ -733,6 +750,18 @@ footer #last .card a:hover {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
+  header #head .col-md-6 #shape {
+    width: 69%;
+    min-width: 280px;
+    max-height: 980px;
+    min-height: 60vh;
+    height: 743px;
+    object-fit: cover;
+    /* object-position: center right; */
+    position: absolute;
+    left: 22%;
+    bottom: 16%;
+  }
   #order img {
     height: 655px;
     border-radius: 32px;
@@ -765,6 +794,20 @@ footer #last .card a:hover {
   }
   #order .card p {
     font-size: 17px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  header #head .col-md-6 #shape {
+    width: 69%;
+    min-width: 280px;
+    max-height: 980px;
+    min-height: 60vh;
+    height: 743px;
+    object-fit: cover;
+    /* object-position: center right; */
+    position: absolute;
+    left: 22%;
+    bottom: 19%;
   }
 }
 @media screen and (min-width: 1700px) {
